@@ -1,0 +1,5 @@
+Run with:
+  npm install --registry=https://registry.npmjs.org/
+  npm run dev
+
+This package intentionally excludes node_modules and package-lock.json to avoid stale/internal registry URLs.
