@@ -50,6 +50,6 @@ management:
 security:
   jwt:
     issuer: ${JWT_ISSUER:peopleflow}
-    secret: ${JWT_SECRET:change-me-in-real-env}
+    secret: ${JWT_SECRET:peopleflow-hrms-secret-key-must-be-32-chars-min}
     access-token-ttl-minutes: ${JWT_ACCESS_TOKEN_TTL_MINUTES:30}
     refresh-token-ttl-days: ${JWT_REFRESH_TOKEN_TTL_DAYS:7}

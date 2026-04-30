@@ -9,7 +9,9 @@ com\peopleflow\PeopleFlowApplication.class
 com\peopleflow\shared\config\JpaAuditingConfig.class
 com\peopleflow\auth\application\DbSanityService.class
 com\peopleflow\shared\response\ApiResponse.class
+com\peopleflow\shared\security\JwtService.class
 com\peopleflow\shared\persistence\AuditableEntity.class
+com\peopleflow\shared\security\JwtAuthenticationFilter.class
 com\peopleflow\auth\domain\entity\UserRoleEntity.class
 com\peopleflow\auth\mapper\UserMapper.class
 com\peopleflow\shared\exception\GlobalExceptionHandler.class
@@ -17,6 +19,8 @@ com\peopleflow\auth\api\LoginRequest.class
 com\peopleflow\auth\api\UserSanityResponse.class
 com\peopleflow\auth\domain\repository\UserRepository.class
 com\peopleflow\auth\domain\repository\UserRoleRepository.class
+com\peopleflow\shared\security\UserDetailsServiceImpl.class
+com\peopleflow\shared\security\JwtProperties.class
 com\peopleflow\auth\application\AuthService.class
 com\peopleflow\employeeprofile\api\ProfileController.class
 com\peopleflow\auth\domain\entity\RoleEntity.class
